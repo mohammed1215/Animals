@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo.png" alt="" />
+          <h1>Pawstore</h1>
+        </div>
+        <div class="bars">
+          <i onclick="moving()" class="bar fa-solid fa-bars"></i>
+          <div class="nav">
+            <ul class="nav-links">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Breeds</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search">
+              <input type="text" placeholder="Search for pets... " />
+              <i class="fa-solid fa-search" style="color: #8a8a8a"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="landing">
+      <div class="container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="imgs/Dog1.png" alt="" />
+              <p>Corgi (2 months)</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/Dog1.png" alt="" />
+              <p>Corgi (2 months)</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/Dog1.png" alt="" />
+              <p>Corgi (2 months)</p>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="landing-text">
+          <h2>Everybody needs a friend in Life.</h2>
+          <p>
+            The Corgi is intelligent, quick and curious. It is a kind,
+            adventurous breed which shows a large measure of independence. They
+            are good with children and normally kind with strangers.
+          </p>
+          <button class="landing-button">Buy Me</button>
+          <div class="links">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="breed">
+      <div class="title">
+        <h2>Dog breed</h2>
+        <p>Find yourself a perfect freind from a wide variety of choices.</p>
+      </div>
+      <div class="container">
+        <div class="breed-Dogs">
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog2.jpeg" alt="" />
+            </div>
+            <p>Golden Retriver</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog3.jpeg" alt="" />
+            </div>
+            <p>Siberian Husky</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog4.jpeg" alt="" />
+            </div>
+            <p>Pitbull</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog5.jpeg" alt="" />
+            </div>
+            <p>German Shepard</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog6.jpeg" alt="" />
+            </div>
+            <p>Pug</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog7.jpeg" alt="" />
+            </div>
+            <p>Japanese Spitz</p>
+          </div>
+          <div class="Dog-item">
+            <div class="breed-img-holder">
+              <img src="imgs/Dog8.jpeg" alt="" />
+            </div>
+            <p>Labrador</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <div class="products-text">
+          <h2>Pet Products</h2>
+          <p>
+            All products are designed for ease of use and durable, as well as
+            looking good. You can choose your own colours to make your item
+            unique.
+          </p>
+          <button class="products-button">See more</button>
+        </div>
+        <div class="products-imgs">
+          <div class="product-img-holder">
+            <img src="imgs/product1.jpeg" alt="" />
+          </div>
+          <div class="product-img-holder">
+            <img src="imgs/product2.jpeg" alt="" />
+          </div>
+          <div class="product-img-holder">
+            <img src="imgs/product3.jpeg" alt="" />
+          </div>
+          <div class="product-img-holder">
+            <img src="imgs/product4.jpeg" alt="" />
+          </div>
+          <div class="product-img-holder">
+            <img src="imgs/product5.jpeg" alt="" />
+          </div>
+          <div class="product-img-holder">
+            <img src="imgs/product6.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="title">
+        <h2>Blog Section</h2>
+        <p>Desctiprion of blog</p>
+      </div>
+      <div class="container">
+        <div class="cards">
+          <div class="blog-card">
+            <div class="blog-img-holder">
+              <img src="imgs/blog1.jpeg" alt="" />
+            </div>
+            <p>Are you having trouble finding the right dog?</p>
+          </div>
+          <div class="blog-card">
+            <div class="blog-img-holder">
+              <img src="imgs/blog2.jpeg" alt="" />
+            </div>
+            <p>Is your dog aggresive towards your kids?</p>
+          </div>
+          <div class="blog-card">
+            <div class="blog-img-holder">
+              <img src="imgs/blog3.jpeg" alt="" />
+            </div>
+            <p>Looking for someone to train your dog?</p>
+          </div>
+          <div class="blog-card">
+            <div class="blog-img-holder">
+              <img src="imgs/blog4.jpeg" alt="" />
+            </div>
+            <p>Choose the most stylist and durable products for your dog.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscription">
+      <div class="container">
+        <img src="imgs/blog5.png" alt="" />
+        <div class="subsription-text">
+          <h2>Get Pawsome News!</h2>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <input type="email" placeholder="Enter email...." />
+          <a href="about">Subscribe</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <ul class="footer-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">FAQs </a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+          <address>
+            <h3>Contact</h3>
+            <p>Sidhartha chowk-8</p>
+            <p>Pokhara, Nepal</p>
+            <p>+977-[0]61-428793</p>
+          </address>
+          <div class="map">
+            <img src="imgs/map.jpeg" alt="" />
+            <div class="word">Map</div>
+            <div class="zoomin">
+              <div class="icon">
+                <i style="color: black" class="fa-solid fa-camera"></i>
+              </div>
+              <div class="person"><i class="fa-solid fa-person"></i></div>
+              <div class="plusplus">
+                <span onclick='zoom("In")' class="plus"
+                  ><i class="fa-solid fa-plus"></i
+                ></span>
+                <span onclick='zoom("Out")' class="minus"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyRight">
+          <p>
+            Copyright @
+            <span
+              style="display: inline; cursor: auto"
+              class="copyright"
+            ></span>
+            GrandmaBakery
+          </p>
+          <div class="footer-icons">
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" style="color: blue"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-youtube" style="color: red"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-brands fa-solid fa-instagram"
+                style="color: blueviolet"
+              ></i
+            ></a>
+          </div>
+          <p>Created by Mohammed</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
